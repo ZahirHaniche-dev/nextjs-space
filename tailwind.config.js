@@ -7,9 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      backgroundImage: {
+        "home-mobile": "url('../assets/home/background-home-mobile.jpg')",
+        "home-tablet": "url('../assets/home/background-home-tablet.jpg')",
+        "home-desktop": "url('../assets/home/background-home-desktop.jpg')",
       },
     },
   },
