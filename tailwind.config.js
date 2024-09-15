@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: [`var(--font-bellefair)`],
+        headings: [`var(--font-barlow)`],
+      },
       backgroundImage: {
         "home-mobile": "url('../assets/home/background-home-mobile.jpg')",
         "home-tablet": "url('../assets/home/background-home-tablet.jpg')",

@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer utilities {
     .main {
         @apply flex min-h-screen items-center justify-center bg-cover bg-no-repeat pt-32;
     }
 }
+
+
+
