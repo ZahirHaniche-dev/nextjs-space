@@ -5,7 +5,7 @@
 
 ## Description
 
- ⚛️⚡🎨 Pour ce projet, j’ai choisi Vite et NextJS, un duo puissant pour créer des applications web rapides et réactives, ainsi que Tailwind CSS pour son approche utilitaire.
+ ⚛️⚡🎨 Pour ce projet, j’ai choisi NextJS et Tailwind CSS pour son approche utilitaire.
 
 🚀 https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3
 
