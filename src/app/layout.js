@@ -1,20 +1,7 @@
 import MainHeader from "../components/main-header";
-import { Bellefair, Barlow_Condensed } from "next/font/google";
+import { barlow } from "../utils/fonts";
 import "./globals.css";
 
-// Google fonts
-const bellefair = Bellefair({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-bellefair",
-  weight: ["400"],
-});
-const barlow = Barlow_Condensed({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-barlow",
-  weight: ["400"],
-});
 
 
 export default function RootLayout({ children }) {

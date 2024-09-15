@@ -8,7 +8,7 @@ export default function MainHeader() {
 
   return (
     <>
-      <div id="header" className="container flex items-center justify-between px-24">
+      <div id="header" className="container flex items-center justify-between px-28">
         <div id="logo">
           <Link href="/" title="Logo" aria-label="Navigate to homepage">
             <Image src={logo} alt="Logo" width={48} height={48} priority />

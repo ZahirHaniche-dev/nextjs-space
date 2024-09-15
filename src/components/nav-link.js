@@ -12,7 +12,7 @@ const path = usePathname();
   return (
     <>
       <Link href={href} 
-            className={`${path.startsWith(href) ? 'text-white text-lg' : 'text-gray-500 text-lg'} hover:text-white`}>
+            className={`${path.startsWith(href) ? 'text-white text-lg' : 'text-gray-400 text-lg'} hover:text-white`}>
         <motion.div
           whileHover={{ scale: 1.1 }}
           style={{ position: 'relative', display: 'inline-block' }}
