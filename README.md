@@ -49,5 +49,3 @@ Si vous souhaitez contribuer au projet, veuillez suivre les étapes suivantes :
     Commitez vos changements (git commit -am 'Add new feature').
     Poussez la branche (git push origin feature/your-feature).
     Ouvrez une Pull Request.
-
-
