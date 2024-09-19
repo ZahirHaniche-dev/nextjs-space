@@ -78,8 +78,8 @@ export default function Crew() {
               <Image
                 src={require(`../../assets/crew/image-${activeCrew.toLowerCase().replace(' ', '-')}.webp`)}
                 alt={activeCrew}
-                width={250}
-                height={250}
+                width={400}
+                height={400}
                 className="mx-0"
               />
             </motion.div>

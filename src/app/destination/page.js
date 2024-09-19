@@ -74,18 +74,34 @@ export default function Destination() {
             <motion.div
               key={activeDestination}
               initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
+              animate={{ 
+                opacity: 1, 
+                scale: 1,
+              }}
               exit={{ opacity: 0, scale: 0.8 }}
-              transition={{ duration: 0.3 }}
+              transition={{ 
+                duration: 0.3 
+              }}
               className="flex justify-end"
             >
-              <Image
-                src={require(`../../assets/destination/image-${activeDestination.toLowerCase()}.webp`)}
-                alt={activeDestination}
-                width={250}
-                height={250}
-                className="mx-0"
-              />
+              <motion.div
+                animate={{ 
+                  rotate: 360
+                }}
+                transition={{ 
+                  duration: 20,
+                  ease: "linear",
+                  repeat: Infinity
+                }}
+              >
+                <Image
+                  src={require(`../../assets/destination/image-${activeDestination.toLowerCase()}.webp`)}
+                  alt={activeDestination}
+                  width={350}
+                  height={350}
+                  className="mx-0"
+                />
+              </motion.div>
             </motion.div>
           </AnimatePresence>
         </div>

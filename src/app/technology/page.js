@@ -77,8 +77,8 @@ export default function Technology() {
               <Image
                 src={require(`../../assets/technology/image-${activeTechnology.toLowerCase().replace(' ', '-')}-portrait.jpg`)}
                 alt={activeTechnology}
-                width={250}
-                height={250}
+                width={400}
+                height={400}
                 className="mx-0"
               />
             </motion.div>
