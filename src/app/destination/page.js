@@ -21,15 +21,15 @@ export default function Destination() {
       <div className="container flex flex-wrap items-center justify-center overflow-hidden lg:justify-between font-headings">
         <div className="w-full lg:w-1/2">
           <nav className="mb-8">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl text-white font-headings mb-8 text-center lg:text-left">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl text-white font-headings mb-8 text-center lg:text-left uppercase">
             Pick your destination
-          </h2>
+          </h1>
             <ul className="flex justify-center lg:justify-start space-x-6">
               {data.destinations.map((dest) => (
                 <li key={dest.name}>
                   <button
                     onClick={() => setActiveDestination(dest.name)}
-                    className={`text-[#D0D6F9] pb-2 border-b-2 transition-colors duration-300 ${
+                    className={`text-[#D0D6F9] pb-2 border-b-2 transition-colors duration-300 text-lg ${
                       activeDestination === dest.name 
                         ? 'border-white font-bold' 
                         : 'border-transparent hover:border-white/50'
@@ -52,7 +52,7 @@ export default function Destination() {
                   exit={{ opacity: 0, y: -20 }}
                   transition={{ duration: 0.3 }}
                 >
-                  <h3 className="text-5xl md:text-6xl lg:text-7xl text-white font-headings mb-4">{dest.name}</h3>
+                  <h3 className="text-5xl md:text-6xl lg:text-7xl text-white font-headings mb-4 py-2">{dest.name}</h3>
                   <p className="text-[#D0D6F9] mb-8 max-w-xl">{dest.description}</p>
                   <div className="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between">
                     <div className="mb-4 md:mb-0">
