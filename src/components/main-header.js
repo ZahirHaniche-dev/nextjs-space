@@ -17,11 +17,11 @@ export default function MainHeader() {
             <Image src={logo} alt="Logo" width={48} height={48} priority />
           </Link>
         </div>
-        <nav className="absolute left-[45%] right-[5%] hidden rounded-sm border border-white/20 bg-gradient-to-r
-         from-[#0b0d1780] to-[#0c1d3980] p-6 drop-shadow-lg backdrop-blur-md before:absolute before:-left-[55%] before:top-1/2 
+        <nav className="absolute left-[45%] right-[5%] hidden rounded-sm   bg-gradient-to-r
+         from-[#51567118] to-[#1125465d] p-6 drop-shadow-lg backdrop-blur-md before:absolute before:-left-[55%] before:top-1/2 
          before:z-[1] before:block before:h-[1px] before:w-[58%] before:-translate-y-1/2 before:bg-gradient-to-r before:from-white/50 
-         before:to-white/1 lg:block">
-          <ul className="flex justify-center space-x-12">
+         before:to-white/25 lg:block">
+          <ul className="flex px-14 space-x-12">
             <li>
               <NavLink href="/" isActive={pathname === '/'}>HOME</NavLink>
             </li>
