@@ -17,19 +17,19 @@ export default function MainHeader() {
         <nav className="absolute left-[45%] right-[5%] hidden rounded-sm border border-white/20 bg-gradient-to-r
          from-[#0b0d1780] to-[#0c1d3980] p-6 drop-shadow-lg backdrop-blur-md before:absolute before:-left-[55%] before:top-1/2 
          before:z-[1] before:block before:h-[1px] before:w-[58%] before:-translate-y-1/2 before:bg-gradient-to-r before:from-white/50 
-         before:to-white/25 lg:block">
+         before:to-white/50 lg:block">
           <ul className="flex justify-center space-x-12">
             <li>
-              <NavLink href="/">00 HOME</NavLink>
+              <NavLink href="/">HOME</NavLink>
             </li>
             <li>
-              <NavLink href="/destination">01 DESTINATION</NavLink>
+              <NavLink href="/destination">DESTINATION</NavLink>
             </li>
             <li>
-              <NavLink href="/crew">02 CREW</NavLink>
+              <NavLink href="/crew">CREW</NavLink>
             </li>
             <li>
-              <NavLink href="/technology">03 TECHNOLOGY</NavLink>
+              <NavLink href="/technology">TECHNOLOGY</NavLink>
             </li>
           </ul>
         </nav>

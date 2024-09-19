@@ -22,7 +22,7 @@ export default function Destination() {
         <div className="w-full lg:w-1/2">
           <nav className="mb-8">
           <h2 className="text-2xl md:text-3xl lg:text-4xl text-white font-headings mb-8 text-center lg:text-left">
-            01 Pick your destination
+            Pick your destination
           </h2>
             <ul className="flex justify-center lg:justify-start space-x-6">
               {data.destinations.map((dest) => (
@@ -77,13 +77,14 @@ export default function Destination() {
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.8 }}
               transition={{ duration: 0.3 }}
+              className="flex justify-end"
             >
               <Image
                 src={require(`../../assets/destination/image-${activeDestination.toLowerCase()}.webp`)}
                 alt={activeDestination}
                 width={250}
                 height={250}
-                className="mx-auto"
+                className="mx-0"
               />
             </motion.div>
           </AnimatePresence>
