@@ -17,7 +17,7 @@ export default function Technology() {
   }, [activeTechnology]);
 
   return (
-    <div className="main bg-technology-mobile md:bg-technology-tablet lg:bg-technology-desktop px-32">
+    <div className={`main bg-technology-mobile md:bg-technology-tablet lg:bg-technology-desktop px-4 sm:px-8 md:px-16 lg:px-24`}>
       <div className="container flex flex-wrap items-center justify-center overflow-hidden lg:justify-between font-headings">
         <div className="w-full lg:w-1/2">
           <nav className="mb-8">

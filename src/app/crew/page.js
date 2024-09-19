@@ -17,7 +17,7 @@ export default function Crew() {
   }, [activeCrew]);
 
   return (
-    <div className="main bg-crew-mobile md:bg-crew-tablet lg:bg-crew-desktop px-32">
+    <div className={`main bg-crew-mobile md:bg-crew-tablet lg:bg-crew-desktop px-4 sm:px-8 md:px-16 lg:px-24`}>
       <div className="container flex flex-wrap items-center justify-center overflow-hidden lg:justify-between font-headings">
         <div className="w-full lg:w-1/2">
           <nav className="mb-8">

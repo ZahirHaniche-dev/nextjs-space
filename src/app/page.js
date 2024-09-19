@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 export default function Home() {
   return (
     <>
-      <main className={`main bg-home-mobile md:bg-home-tablet lg:bg-home-desktop px-32`}>
+      <main className={`main bg-home-mobile md:bg-home-tablet lg:bg-home-desktop px-4 sm:px-8 md:px-16 lg:px-24`}>
         <div className="container flex flex-wrap items-center justify-center overflow-hidden lg:justify-between">
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
