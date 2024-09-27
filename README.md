@@ -3,6 +3,9 @@
 
 ## Welcome! 👋
 
+![image](https://github.com/user-attachments/assets/bbbf1e22-32d3-44ef-a090-b0d59bc4388c)
+
+
 ## Description
 
  ⚛️⚡🎨 Pour ce projet, j’ai choisi NextJS, Tailwind CSS et Framer Motion pour leur approche utilitaire.
